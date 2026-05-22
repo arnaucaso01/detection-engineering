@@ -170,27 +170,6 @@ This allows the detections to be reused across different SIEM platforms.
 
 ---
 
-## Repository Structure
-
-```text
-Detection-Engineering-Kerberoasting/
-├── sigma_rules/
-│   ├── kerberoasting_rc4.yml
-│   └── honeypot_detection.yml
-├── scripts/
-│   └── Detect-Kerberoasting.ps1
-├── siem_queries/
-│   ├── splunk_rc4_search.txt
-│   └── splunk_honeypot_search.txt
-├── screenshots/
-│   ├── 01_script_all_alerts.png
-│   ├── 02_event_4769_rc4.png
-│   ├── 03_sigma_honeypot_conversion.png
-│   └── 04_attack_hashes.png
-└── README.md
-```
-
----
 
 ## References
 
